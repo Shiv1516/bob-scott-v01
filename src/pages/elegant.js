@@ -21,26 +21,23 @@ const elegant = () => {
           rel="stylesheet"
         />
       </Head>
-      <section className="elegent-product df fww">
+      <Header className="fc2" />
+      <section className="elegent-product df fww bg5">
         <div className="elegent-product-img flx50">
           <img
-            src="images/feature-img-02.webp"
+            src="images/chair-1x1-01.webp"
             alt="feature-img-02"
             className="w100 mb12"
           />
-          <img
-            src="images/feature-img-06.webp"
-            alt="feature-img-02"
-            className="w100"
-          />
         </div>
-        <div className="elegent-product-content">
-          <h2 className="elegent-product-content-heading heading fc2">
-            Elegant Lamp
+        <div className="product-content flx1 pl24">
+          <h2 className="product-content-heading fs52 fw5 fc2 mb24">
+            MODERN CHAIR
           </h2>
+          <h4 className="product-content-subheading fs18 fw5">$ 249.00 USD</h4>
         </div>
       </section>
-      <Header className="pa fc2" />
+
       <Footer />
     </>
   );
