@@ -42,7 +42,7 @@ const faq = () => {
         </ul>
       </div>
       <Faq />
-      <Help className="bg1" />
+      <Help className="bg1 brd-b1" />
       <Footer />
     </>
   );

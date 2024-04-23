@@ -237,6 +237,9 @@ table {
 .ass {
   align-self: stretch;
 }
+.taj {
+  text-align: justify;
+}
 
 /* Column and Row */
 .fdc {
@@ -905,7 +908,7 @@ table {
   border: 1px solid #c2c2c8;
 }
 .brd-b1 {
-  border-bottom: 1px solid #343339;
+  border-bottom: 0.5px solid #424148;
 }
 .aft:after,
 .bef:before {
@@ -1415,7 +1418,11 @@ table {
   .vision-box,
   .abouts-about-left,
   .contact-heading,
-  .form-section {
+  .form-section,
+  .elegent-product-img,
+  .product-content,
+  .elegent-descripion-heading-text,
+  .elegent-descripion-heading-description {
     flex: 0 0 100%;
     max-width: 100%;
   }
@@ -1576,4 +1583,12 @@ table {
   .block-heading p {
     font-size: 22px;
   }
+}
+.product-content {
+  position: sticky;
+  top: 0px;
+  max-height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }

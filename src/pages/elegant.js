@@ -21,20 +21,76 @@ const elegant = () => {
           rel="stylesheet"
         />
       </Head>
-      <Header className="fc2" />
+      <Header className="pa fc5 zi99" />
       <section className="elegent-product df fww bg5">
         <div className="elegent-product-img flx50">
           <img
-            src="images/chair-1x1-01.webp"
+            src="images/chair-img-01.webp"
             alt="feature-img-02"
             className="w100 mb12"
           />
+          <img
+            src="images/chair-img-02.webp"
+            alt="feature-img-02"
+            className="w100 mb12"
+          />
+          <img
+            src="images/chair-img-03.webp"
+            alt="feature-img-02"
+            className="w100 df"
+          />
         </div>
-        <div className="product-content flx1 pl24">
-          <h2 className="product-content-heading fs52 fw5 fc2 mb24">
+        <div className="product-content flx50 plr40 ptb24">
+          <h2 className="product-content-heading fs80 fw5 fc2 mb24">
             MODERN CHAIR
           </h2>
-          <h4 className="product-content-subheading fs18 fw5">$ 249.00 USD</h4>
+          <h4 className="product-content-subheading fs18 fw5 mb24">
+            $ 249.00 USD
+          </h4>
+          <p className="product-content-text lh24">
+            Discover comfort and style in our chair section, featuring
+            meticulously crafted seating solutions designed for durability and
+            ergonomic support. Elevate your space with our range of quality
+            chairs.
+          </p>
+        </div>
+      </section>
+
+      <section className="product-description  ptb72 brd-b1">
+        <div className="elegent-description wrapper df fww">
+          <div className="elegent-descripion-heading-text flx50">
+            <h2 className="elegent-descripion-heading fs42 fc2 p24">
+              Description
+            </h2>
+          </div>
+          <div className="elegent-descripion-heading-description flx50 plr24">
+            <p className="elegent-subtext lh30 taj mb24">
+              Welcome to our chair section, where comfort and style converge to
+              enhance your seating experience. Our curated collection features a
+              range of meticulously crafted chairs designed with your utmost
+              comfort in mind. From ergonomic office chairs that promote healthy
+              posture during long hours of work to stylish lounge chairs that
+              add flair to your living space, each piece is a testament to
+              quality and durability.
+            </p>
+            <p className="elegent-subtext lh30 taj mb24">
+              Our chairs are crafted using premium materials and innovative
+              techniques, ensuring longevity and reliable performance. Whether
+              you're looking for a sleek and modern design or a classic and
+              timeless piece, our selection caters to diverse preferences and
+              needs.
+            </p>
+            <p className="elegent-subtext lh30 taj mb24">
+              Experience superior comfort with ergonomic features such as
+              adjustable armrests, lumbar support, and breathable upholstery.
+              Each chair is thoughtfully designed to provide optimal support and
+              relaxation, making them ideal for both work and leisure
+              environments. Elevate your space with our high-quality chairs that
+              combine functionality, aesthetics, and comfort seamlessly. Find
+              the perfect seating solution that complements your style and
+              enhances your daily life.
+            </p>
+          </div>
         </div>
       </section>
 

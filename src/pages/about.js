@@ -42,7 +42,7 @@ const about = () => {
               <h2 className=" about-left-heading fs22 fw6 mb24 fc2">
                 About Company
               </h2>
-              <p className="content-pairagraph lh30 fs20 fc6 mb16">
+              <p className="content-pairagraph lh30 fs16 fc6 mb16 taj">
                 At our furniture store, we pride ourselves on offering only the
                 finest quality furniture to elevate your living spaces. Our
                 commitment to excellence begins with the careful selection of
@@ -51,7 +51,7 @@ const about = () => {
                 fabrics, every detail is chosen with your comfort and
                 satisfaction in mind.
               </p>
-              <p className="content-pairagraph lh30 fs20 fc6 mb16">
+              <p className="content-pairagraph lh30 fs16 fc6 mb16 taj">
                 Discover the difference that quality furniture can make in your
                 home. With timeless designs and meticulous craftsmanship, our
                 collection embodies both elegance and functionality. Whether
@@ -60,7 +60,7 @@ const about = () => {
                 high-quality furniture pieces is designed to enhance your
                 lifestyle and withstand the test of time.
               </p>
-              <p className="content-pairagraph lh30 fs20 fc6 mb16">
+              <p className="content-pairagraph lh30 fs16 fc6 mb16 taj">
                 Investing in quality furniture isn't just about aesthetics; it's
                 about investing in the comfort and well-being of your family.
                 Experience the difference of furniture that's built to last,
@@ -75,7 +75,7 @@ const about = () => {
           <div className="abouts-about-right flx1"></div>
         </div>
       </section>
-      <section className="vision ptb72">
+      <section className="vision ptb72 brd-b1">
         <div className="vision-container ptb40 df fww aic">
           <div className="vision-box flx60 pr ptb16 pr16 brd3">
             <div className="vision-image df aft pr">
