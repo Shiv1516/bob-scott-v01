@@ -67,7 +67,7 @@ const cabinet = () => {
       <section className="shop-items ptb72 bg5">
         <div className="feature-box-images wrapper df fww mt40">
           <div className="features-images flx33 tac mtb24">
-            <Link href="/" className="box-image mlr32 mb32">
+            <Link href="/elegant" className="box-image mlr32 mb32">
               <img
                 src="images/cabinet-img-01.webp"
                 alt="cabinet-img-01"
@@ -80,7 +80,7 @@ const cabinet = () => {
             </div>
           </div>
           <div className="features-images flx33 tac mtb24">
-            <Link href="/" className="box-image mlr32 mb32">
+            <Link href="/elegant" className="box-image mlr32 mb32">
               <img
                 src="images/cabinet-img-02.webp"
                 alt="cabinet-img-02"
@@ -95,7 +95,7 @@ const cabinet = () => {
             </div>
           </div>
           <div className="features-images flx33 tac mtb24">
-            <Link href="/" className="box-image mlr32 mb32">
+            <Link href="/elegant" className="box-image mlr32 mb32">
               <img
                 src="images/cabinet-img-03.webp"
                 alt="cabinet-img-03"

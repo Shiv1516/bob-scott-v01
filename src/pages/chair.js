@@ -81,7 +81,7 @@ const chair = () => {
             </div>
           </div>
           <div className="features-images flx33 tac mtb24">
-            <Link href="/" className="box-image mlr32 mb32">
+            <Link href="/elegant" className="box-image mlr32 mb32">
               <img
                 src="images/chair-img-02.webp"
                 alt="modern-lamp"
@@ -94,7 +94,7 @@ const chair = () => {
             </div>
           </div>
           <div className="features-images flx33 tac mtb24">
-            <Link href="/" className="box-image mlr32 mb32">
+            <Link href="/elegant" className="box-image mlr32 mb32">
               <img
                 src="images/chair-img-03.webp"
                 alt="modern-lamp"
