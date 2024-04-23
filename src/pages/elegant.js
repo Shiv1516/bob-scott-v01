@@ -3,8 +3,7 @@ import Head from "next/head";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Link from "next/link";
-import Storage from "@/components/Storage";
-import Help from "@/components/Help";
+import { IoIosArrowRoundForward } from "react-icons/io";
 
 const elegant = () => {
   return (
@@ -44,9 +43,13 @@ const elegant = () => {
           <h2 className="product-content-heading fs80 fw5 fc2 mb24">
             MODERN CHAIR
           </h2>
-          <h4 className="product-content-subheading fs18 fw5 mb24">
-            $ 249.00 USD
-          </h4>
+          <Link
+            href="/"
+            className="product-content-subheading transit2 fc5 fw5 mb24 v-center"
+          >
+            Get Best Price{" "}
+            <IoIosArrowRoundForward className="best-price-icon transit ml4 fw5 fs20" />
+          </Link>
           <p className="product-content-text lh24">
             Discover comfort and style in our chair section, featuring
             meticulously crafted seating solutions designed for durability and

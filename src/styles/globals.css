@@ -1445,6 +1445,9 @@ table {
   .faq-sec-content {
     width: 100%;
   }
+  .inner-menu-heading {
+    font-size: 22px;
+  }
 }
 @media screen and (max-width: 768px) {
   .logo-img img {
@@ -1591,4 +1594,9 @@ table {
   display: flex;
   flex-direction: column;
   justify-content: end;
+}
+.product-content-subheading:hover {
+  color: #f61b8c;
+  text-decoration: underline;
+  transform: translateX(10px);
 }
